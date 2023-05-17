@@ -3,7 +3,7 @@
 This is a list of Blender Python scripts that I use or made:
 
 
-Zoy's basic scripts
+Zoy's basic scripts, made with ChatGPT
 
 - render_viewport.py --- whatever appears in your 3d viewport is rendered
 
