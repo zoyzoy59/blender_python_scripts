@@ -1,9 +1,6 @@
 # blender_python_scripts
 
-This is a list of Blender Python scripts that I use or made:
-
-
-Zoy's basic scripts, made with ChatGPT
+This is a list of basic Blender Python scripts that I made using ChatGPT.
 
 - render_viewport.py --- whatever appears in your 3d viewport is rendered
 
