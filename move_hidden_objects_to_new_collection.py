@@ -1,6 +1,6 @@
 import bpy
 
-def move_hidden_objects_to_new_folder():
+def move_hidden_objects_to_new_collection():
     # Create a new collection
     new_collection = bpy.data.collections.new("Hidden Objects")
     bpy.context.scene.collection.children.link(new_collection)
@@ -25,4 +25,4 @@ def move_hidden_objects_to_new_folder():
         new_collection.objects.link(obj)
 
 # Run the function to move hidden objects to a new collection
-move_hidden_objects_to_new_folder()
+move_hidden_objects_to_new_collection()
