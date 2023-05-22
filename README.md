@@ -10,6 +10,8 @@ This is a list of basic Blender Python scripts that I made using ChatGPT.
 
 - move_hidden_objects_to_new_folder.py
 
+Scripts I'm testing -- danger, buggy, might mess up your scene bad
+
 - reset_bones_and_armatures.py --- sets selected rigs back to default pose and to world origin (testing)
 
 - save_render_as_filename_frame_seq.py --- saves render of active camera as blendname_frame_00x.png in specified directory (testing)
