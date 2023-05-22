@@ -2,18 +2,19 @@
 
 This is a list of basic Blender Python scripts that I made using ChatGPT.
 
-## render_viewport.py
-whatever appears in your 3d viewport is rendered (does not render cycles viewport preview)
-paste your desired output directory in "/path/to/output/directory/"
-
 ## create_empty_parent_for_objects.py
-creates empty for a set of selected objects; use the empty to control transformation of group
+- creates empty for a set of selected objects; use the empty to control transformation of group
 
 ## list_all_hidden_objects.py
-prints (in system console) the object name and collection name for all hidden objects
+- prints (in system console) the object name and collection name for all hidden objects
 
 ## move_hidden_objects_to_new_folder.py
-self-explanatory
+- self-explanatory
+
+## render_viewport.py
+- whatever appears in your 3d viewport is rendered in 1920 x 1080
+- paste your desired output directory in "/path/to/output/directory/"
+- (does not render cycles viewport preview)
 
 # Scripts I'm testing -- danger, buggy, might mess up your scene bad, sorrylol
 
