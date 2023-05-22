@@ -8,7 +8,7 @@ This is a list of basic Blender Python scripts that I made using ChatGPT.
 ## list_all_hidden_objects.py
 - prints (in system console) the object name and collection name for all hidden objects
 
-## move_hidden_objects_to_new_folder.py
+## move_hidden_objects_to_new_collection.py
 - self-explanatory
 
 ## render_viewport.py
