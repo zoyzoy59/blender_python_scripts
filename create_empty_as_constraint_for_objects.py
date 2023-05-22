@@ -1,6 +1,6 @@
 import bpy
 
-def create_empty_and_constrain():
+def create_empty_parent_for_objects():
     selected_objects = bpy.context.selected_objects
     
     # Create an empty object
@@ -11,4 +11,4 @@ def create_empty_and_constrain():
     for obj in selected_objects:
         obj.parent = empty
 
-create_empty_and_constrain()
+create_empty_parent_for_objects()
