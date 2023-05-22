@@ -12,8 +12,9 @@ creates empty for a set of selected objects; use the empty to control transforma
 prints (in system console) the object name and collection name for all hidden objects
 
 ## move_hidden_objects_to_new_folder.py
+self-explanatory
 
-# Scripts I'm testing -- danger, buggy, might mess up your scene bad
+# Scripts I'm testing -- danger, buggy, might mess up your scene bad, sorrylol
 
 ## reset_bones_and_armatures.py
 sets selected rigs back to default pose and to world origin (testing)
