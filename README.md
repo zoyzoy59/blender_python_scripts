@@ -1,6 +1,6 @@
 # blender_python_scripts
 
-This is a list of basic Blender Python scripts that I made using ChatGPT.
+This is a list of basic Blender Python scripts that I made using ChatGPT. These scripts have only been tested for Blender 3.5.
 
 ## create_empty_parent_for_objects.py
 - creates empty for a set of selected objects; use the empty to control transformation of group
@@ -16,10 +16,11 @@ This is a list of basic Blender Python scripts that I made using ChatGPT.
 - paste your desired output directory in "/path/to/output/directory/"
 - (does not render cycles viewport preview)
 
-# Scripts I'm testing -- danger, buggy, might mess up your scene bad, sorrylol
+# Scripts WIP -- danger, might mess up your scene, sorrylol
 
 ## reset_bones_and_armatures.py
 sets selected rigs back to default pose and to world origin (testing)
 
 ## save_render_as_filename_frame_seq.py
 saves render of active camera as blendname_frame_00x.png in specified directory (testing)
+
