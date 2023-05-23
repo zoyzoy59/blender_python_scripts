@@ -12,7 +12,7 @@ This is a list of basic Blender Python scripts that I made using ChatGPT. These 
 - self-explanatory
 
 ## render_viewport.py
-- whatever appears in your 3d viewport is rendered in 1920 x 1080
+- whatever appears in your 3d viewport, with overlays, is rendered in 1920 x 1080
 - paste your desired output directory in "/path/to/output/directory/"
 - (does not render cycles viewport preview)
 
