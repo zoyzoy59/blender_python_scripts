@@ -20,7 +20,8 @@ If your project is complex or has a lot of objects, your results may vary. Execu
 - prints (in system console) the object name and collection name for all hidden objects
 
 ## move_hidden_objects_to_new_collection.py
-- self-explanatory
+
+## set_viewport_fps.py
 
 ## render_viewport.py
 - whatever appears in your 3d viewport, with overlays, is rendered in 1920 x 1080
