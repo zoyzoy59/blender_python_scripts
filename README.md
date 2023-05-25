@@ -22,13 +22,13 @@ If your project is complex or has a lot of objects, your results may vary. Execu
 ## move_hidden_objects_to_new_collection.py
 - self-explanatory
 
-## save_render_as_filename_frame_seq.py
-saves render of active camera as blendname_frame_00x.png in specified directory (testing)
-
 ## render_viewport.py
 - whatever appears in your 3d viewport, with overlays, is rendered in 1920 x 1080
 - paste your desired output directory in "/path/to/output/directory/"
 - (does not render cycles viewport preview)
+
+## save_render_as_filename_frame_seq.py
+saves render of active camera as blendname_frame_00x.png in specified directory (testing)
 
 # Scripts WIP -- danger, might mess up your scene, sorrylol
 
