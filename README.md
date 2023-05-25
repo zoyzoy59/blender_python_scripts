@@ -1,6 +1,10 @@
 # blender_python_scripts
 
-This is a list of basic Blender Python scripts that I made using ChatGPT. These scripts have only been tested for Blender 3.5.
+This is a list of basic Blender Python scripts that I made using ChatGPT. 
+
+These scripts have only been tested for Blender 3.5.
+
+If your project is complex or has a lot of objects, your results may vary. Execute with console open, preferably.
 
 ## move_cameras_to_collection
 - moves all cameras into collection called "Cameras"
