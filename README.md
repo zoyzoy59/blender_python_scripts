@@ -6,10 +6,10 @@ These scripts have only been tested for Blender 3.5.
 
 If your project is complex or has a lot of objects, your results may vary. Execute with console open, preferably.
 
-## move_cameras_to_collection
+## move_cameras_to_collection.py
 - moves all cameras into collection called "Cameras"
 
-## move_lights_to_collection
+## move_lights_to_collection.py
 - moves all lights into collection called "Lights"
 
 ## create_empty_parent_for_objects.py
