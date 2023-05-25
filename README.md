@@ -2,6 +2,12 @@
 
 This is a list of basic Blender Python scripts that I made using ChatGPT. These scripts have only been tested for Blender 3.5.
 
+## move_cameras_to_collection
+- moves all cameras into collection called "Cameras"
+
+## move_lights_to_collection
+- moves all lights into collection called "Lights"
+
 ## create_empty_parent_for_objects.py
 - creates empty for a set of selected objects; use the empty to control transformation of group
 
