@@ -28,7 +28,7 @@ If your project is complex or has a lot of objects, your results may vary. Execu
 - (does not render cycles viewport preview)
 
 ## save_render_as_filename_frame_seq.py
-saves render of active camera as blendname_frame_00x.png in specified directory (testing)
+saves render of active camera as blendname_frame_00x.png in specified directory
 
 # Scripts WIP -- danger, might mess up your scene, sorrylol
 
