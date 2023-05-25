@@ -11,7 +11,7 @@ If your project is complex or has a lot of objects, your results may vary. Execu
 
 ## move_lights_to_collection.py
 - moves all lights into collection called "Lights"
-- makes all lights visible !!
+- makes all lights visible !! <-- to do: change this to re-hide if light was hidden
 
 ## create_empty_parent_for_objects.py
 - creates empty for a set of selected objects; use the empty to control transformation of group
