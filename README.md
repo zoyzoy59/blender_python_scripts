@@ -1,3 +1,5 @@
+## I'm no longer focusing my time on this because it was just copy/pasting error messages, and that's not what I want to do. That is all.
+
 # blender_python_scripts
 
 This is a list of basic Blender Python scripts that I made using ChatGPT. 
