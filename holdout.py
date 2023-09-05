@@ -23,10 +23,14 @@ output_node.location = (400, 0)
 # Link nodes
 holdout_material.node_tree.links.new(holdout_node.outputs['Holdout'], output_node.inputs['Surface'])
 
-# Assign the Holdout material to all mesh objects
-for obj in bpy.context.scene.objects:
-    if obj.type == "MESH":
-        obj.data.materials.clear()  # Remove existing materials
-        obj.data.materials.append(holdout_material)
+# Assign the Holdout material to selected mesh objects without removing other material slots
+selected_objects = [obj for obj in bpy.context.selected_objects if obj.type == "MESH"]
+for obj in selected_objects:
+    # Create a new material slot for the Holdout material and assign it
+    obj.data.materials.append(holdout_material)
+    
+    # Assign the Holdout material to all faces of the object
+    for polygon in obj.data.polygons:
+        polygon.material_index = len(obj.data.materials) - 1  # Assign the last material slot
 
-print("Holdout materials assigned to all meshes.")
+print(f"Holdout material added to {len(selected_objects)} selected mesh objects as a new material slot.")
